@@ -13,7 +13,7 @@ O objetivo principal foi explorar, comparar e integrar técnicas modernas de Dee
 ## Objetivo:
 Avaliar o desempenho de uma CNN simples em um problema de classificação supervisionada.
 
-##O que foi feito:
+O que foi feito:
 
 - Treinamento de CNN em dados reais
 
