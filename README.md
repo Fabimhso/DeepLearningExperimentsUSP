@@ -10,16 +10,16 @@ O objetivo principal foi explorar, comparar e integrar técnicas modernas de Dee
 # 📌 Visão Geral dos Experimentos
 ## 🔹 Experimento 1 — CNNs Básicas para Classificação
 
-#Objetivo:
-## Avaliar o desempenho de uma CNN simples em um problema de classificação supervisionada.
+## Objetivo:
+Avaliar o desempenho de uma CNN simples em um problema de classificação supervisionada.
 
 ##O que foi feito:
 
-Treinamento de CNN em dados reais
+- Treinamento de CNN em dados reais
 
-Avaliação de acurácia e matriz de confusão
+- Avaliação de acurácia e matriz de confusão
 
-Estabelecimento de baseline para os experimentos seguintes
+- Estabelecimento de baseline para os experimentos seguintes
 
 ## 🔹 Experimento 2 — Geração de Dados com GANs Condicionais
 
@@ -28,13 +28,13 @@ Gerar dados sintéticos condicionais e avaliar seu impacto no treinamento de cla
 
 O que foi feito:
 
-Treinamento de GAN condicional
+- Treinamento de GAN condicional
 
-Geração de amostras sintéticas
+- Geração de amostras sintéticas
 
-Treinamento de CNN com dados reais e sintéticos
+- Treinamento de CNN com dados reais e sintéticos
 
-Comparação com treinamento apenas em dados reais
+- Comparação com treinamento apenas em dados reais
 
 ## 🔹 Experimento 3 — Autoencoders Adversariais (CAAE)
 
@@ -43,23 +43,20 @@ Explorar Autoencoders Adversariais como alternativa conceitual às GANs para ger
 
 O que foi feito:
 
-Treinamento de um Conditional Adversarial Autoencoder (CAAE)
+- Treinamento de um Conditional Adversarial Autoencoder (CAAE)
 
-Variação da dimensão do espaço latente
+- Variação da dimensão do espaço latente
 
-Mistura de dados reais e sintéticos no treinamento
+- Mistura de dados reais e sintéticos no treinamento
 
-Avaliação da métrica FID
+- Avaliação da métrica FID
 
-Comparação de desempenho da CNN:
+- Comparação de desempenho da CNN:
+- com dados reais
+- com dados sintéticos
+- com dados mistos
 
-com dados reais
-
-com dados sintéticos
-
-com dados mistos
-
-Determinação da proporção ideal de dados sintéticos
+- Determinação da proporção ideal de dados sintéticos
 
 # 📌 Conclusão:
 O uso controlado de dados sintéticos melhora o desempenho, desde que não sejam utilizados no conjunto de teste.
@@ -71,21 +68,21 @@ Reutilizar representações profundas como atributos de alto nível para método
 
 O que foi feito:
 
-Treinamento de CNN para extração de features
+- Treinamento de CNN para extração de features
 
-Treinamento de ensembles globais (MLP e SVM)
+- Treinamento de ensembles globais (MLP e SVM)
 
-Aplicação de Mapas Auto-Organizáveis (SOM)
+- Aplicação de Mapas Auto-Organizáveis (SOM)
 
-Análise da pureza dos clusters
+- Análise da pureza dos clusters
 
-Treinamento de classificadores locais (especialistas) por cluster
+- Treinamento de classificadores locais (especialistas) por cluster
 
-Comparação entre:
+- Comparação entre:
 
-Ensembles globais
+- Ensembles globais
 
-Especialistas locais via SOM
+- Especialistas locais via SOM
 
 # 📌 Conclusão:
 Especialistas locais podem superar modelos globais em regiões específicas do espaço de características.
@@ -95,34 +92,34 @@ Especialistas locais podem superar modelos globais em regiões específicas do e
 Objetivo:
 Analisar compressão de dados e preservação de informação relevante.
 
-O que foi feito:
+- O que foi feito:
 
-Treinamento de Autoencoder não supervisionado
+- Treinamento de Autoencoder não supervisionado
 
-Variação da dimensão latente (16, 32, 64, 128)
+- Variação da dimensão latente (16, 32, 64, 128)
 
-Extração do espaço latente
+- Extração do espaço latente
 
-Treinamento de MLP e SVM sobre o espaço comprimido
+- Treinamento de MLP e SVM sobre o espaço comprimido
 
-Comparação com features profundas extraídas de CNN
+- Comparação com features profundas extraídas de CNN
 
-Análise do trade-off compressão × desempenho
+- Análise do trade-off compressão × desempenho
 
 # 📌 Conclusão:
 Dimensões latentes intermediárias oferecem o melhor equilíbrio entre compressão e desempenho preditivo.
 
 # 📊 Conclusões Gerais
 
-Representações profundas podem ser reutilizadas com sucesso por métodos clássicos
+- Representações profundas podem ser reutilizadas com sucesso por métodos clássicos
 
-Dados sintéticos podem melhorar generalização, quando usados corretamente
+- Dados sintéticos podem melhorar generalização, quando usados corretamente
 
-Autoencoders permitem redução dimensional eficiente, preservando informação relevante
+- Autoencoders permitem redução dimensional eficiente, preservando informação relevante
 
-A combinação de Deep Learning + métodos clássicos resulta em modelos mais flexíveis e interpretáveis
+- A combinação de Deep Learning + métodos clássicos resulta em modelos mais flexíveis e interpretáveis
 
-Técnicas de especialização local (SOM + especialistas) são eficazes em cenários complexos
+- Técnicas de especialização local (SOM + especialistas) são eficazes em cenários complexos
 
 ## 🛠️ Tecnologias e Stack Utilizadas
 ## 🔧 Linguagem
