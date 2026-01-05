@@ -1,0 +1,12 @@
+Compara o desempenho de uma CNN treinada com dados reais e uma CNN treinada com dados reais + fakes
+
+A comparação realizada aqui se baseia no MSE. Recomenda treinar várias vezes e realizar teste estatístico (t-teste, teste de wilxoxon)
+
+
+codigo/
+├── models.py
+├── training.py
+└── main_experimento12.py
+
+
+OBS: cGANs modelada por uma MLP

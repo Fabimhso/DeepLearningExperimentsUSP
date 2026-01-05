@@ -1,0 +1,10 @@
+Treina uma CNN sobre dados do MINST
+Testa sobre dados do MINST
+Gera um gráfico com matriz de confusão
+
+Experimento1/
+├── models.py
+├── training.py
+└── main_experimento12.py
+
+

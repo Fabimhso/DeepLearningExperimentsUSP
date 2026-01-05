@@ -1,0 +1,16 @@
+codigo/
+│
+├── models/
+│   ├── cnn.py
+│   ├── cgan_generator.py
+│   └── cgan_discriminator.py
+│
+├── training/
+│   ├── train_cnn.py
+│   └── train_cgan.py
+│
+├── evaluation/
+│   ├── confusion_matrix.py
+│   └── fid.py
+│
+└── main.py

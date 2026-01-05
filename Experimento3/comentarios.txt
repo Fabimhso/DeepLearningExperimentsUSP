@@ -1,0 +1,17 @@
+codigo/
+│
+├── models/
+│   ├── cnn.py
+│   ├── caae_encoder.py
+│   ├── caae_decoder.py
+│   └── caae_discriminator.py
+│
+├── training/
+│   ├── train_cnn.py
+│   └── train_caae.py
+│
+├── evaluation/
+│   ├── confusion_matrix.py
+│   └── fid.py
+│
+└── emain_experimento3.py
